@@ -26,3 +26,32 @@
 </head>
 
 <body <?php body_class(); ?>>
+<!--<nav>
+	<div class="nav-wrapper">
+		<a href="#" class="brand-logo center">Logo</a>
+		<ul id="nav-mobile" class="left hide-on-med-and-down">
+		<li><a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a></li>
+		<li><a href="#">Sass</a></li>
+		<li><a href="#"><i class="material-icons">search</i></a></li>
+		<li><a href="#"><i class="material-icons">face</i></a></li>
+		<li><a href="#"><i class="material-icons right">view_module</i>Link with Right Icon</a></li>
+		<li><a href="#">JavaScript</a></li>
+		</ul>
+	</div>
+</nav>-->
+<nav>
+	<div class="nav-wrapper">
+		<a href="#" class="brand-logo center">Logo</a>
+<?php 
+$defaults = array(
+	'theme_location' => 'primary',
+	'container' 	 => false,
+	'menu_class'	 => 'left hide-on-med-and-down',
+	'menu_id'		 => 'nav-mobile',
+	'depth'			 => 2,
+	// 'walker'		 => new wp_bootstrap_navwalker()
+);
+
+wp_nav_menu($defaults);
+?>
+</nav>
