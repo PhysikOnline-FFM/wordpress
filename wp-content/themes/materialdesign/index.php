@@ -24,11 +24,11 @@ get_sidebar(); ?>
       <a href="#" class="brand-logo center">Logo</a>
       <ul id="nav-mobile" class="left hide-on-med-and-down">
 		<li><a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a></li>
-        <li><a href="sass.html">Sass</a></li>
-		<li><a href="sass.html"><i class="material-icons">search</i></a></li>
-        <li><a href="badges.html"><i class="material-icons">face</i></a></li>
-		<li><a href="badges.html"><i class="material-icons right">view_module</i>Link with Right Icon</a></li>
-        <li><a href="collapsible.html">JavaScript</a></li>
+        <li><a href="#">Sass</a></li>
+		<li><a href="#"><i class="material-icons">search</i></a></li>
+        <li><a href="#"><i class="material-icons">face</i></a></li>
+		<li><a href="#"><i class="material-icons right">view_module</i>Link with Right Icon</a></li>
+        <li><a href="#">JavaScript</a></li>
       </ul>
     </div>
   </nav>
